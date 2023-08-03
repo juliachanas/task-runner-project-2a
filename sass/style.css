@@ -99,3 +99,76 @@ ul .name {
   border-color: #EAB543;
   background-color: #EAB543;
 }
+
+/*SERVICES*/
+.title {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.services .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.services i {
+  color: #EAB543;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid #EAB543;
+}
+
+.services .col-md-4 {
+  margin-bottom: 40px;
+}
+
+.title p {
+  font-style: italic;
+}
+
+/*PORTFOLIO*/
+.portfolio {
+  background-color: #f1f2f6;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background-color: white;
+  line-height: 0.5;
+  margin-bottom: 30px;
+}
+
+.portfolio p {
+  font-style: italic;
+}
+
+.card-image {
+  display: block;
+}
+
+.card-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.card-description {
+  flex: 1 1 auto;
+}
+
+.row {
+  justify-content: center;
+  text-align: center;
+}
+
+.portfolio .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
